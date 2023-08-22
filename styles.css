@@ -1,0 +1,128 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li, a, button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Contact form styles */
+.contact-form {
+    margin: 25vh auto;
+    width: 80%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Ticket table styles */
+.ticket-table {
+    margin-top: 20px;
+    width: 100%;
+    overflow-x: auto;
+}
+
+.ticket-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.ticket-table th, .ticket-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.ticket-table th {
+    background-color: #f4f4f4;
+    text-align: left;
+}
+
+/* Login form styles */
+.login-form {
+    margin: 25vh auto;
+    width: 50%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form input styles */
+input[type="text"], input[type="email"], input[type="tel"],
+textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Button styles */
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Media (Images) */
+.media-container {
+    max-width: 100%;
+}
+
+.media-container img {
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+/* Ticket status colors */
+.ticket-new {
+    background-color: #c8e6c9;
+}
+
+.ticket-closed {
+    background-color: #ffcdd2;
+}
+
+/* Miscellaneous */
+.red-text {
+    color: red;
+    font-weight: bold;
+}
